@@ -16,4 +16,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}  # 由GitHub提供的临时Token，必须在此处进行传递，且必须为这个值。
           forked: '--no-forked'
           starred:'--no-starred'
-          words:  To support our project, please file the issue after you starred the repo. Thanks!
+          words:  'Please file the issue after you starred and forked the repo. Thanks! 🙂'
