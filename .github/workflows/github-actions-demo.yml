@@ -13,6 +13,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}  # 由GitHub提供的临时Token，必须在此处进行传递，且必须为这个值。
           forked: '--no-forked'
-          starred:'--no-starred'
-          words:  'Please file the issue after you starred and forked the repo. Thanks! 🙂'
+          starred: '--no-starred'
+          wordse: 'Please file the issue after you starred and forked the repo. Thanks! 🙂'
 name: No Free usage issue checker
